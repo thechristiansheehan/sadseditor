@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "cd client && npm install && CI=false npm run build",
-    "start": "node server.js"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "react-router-dom": "^7.9.4"
