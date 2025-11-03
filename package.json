@@ -2,7 +2,7 @@
   "name": "image-upload-app",
   "private": true,
   "scripts": {
-    "postinstall": "cd client && npm install && npm run build",
+    "postinstall": "cd client && npm install && CI=false npm run build",
     "start": "node server.js"
   },
   "dependencies": {
